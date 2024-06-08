@@ -92,7 +92,6 @@ mouseArea.addEventListener("mousedown", (e) => {
   lastY = startY;
   startTime = new Date(); // Record the start time
 
-  // Set brush settings
   ctx.strokeStyle = brushColor;
   ctx.lineWidth = brushSize;
   ctx.globalAlpha = brushOpacity;
